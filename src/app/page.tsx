@@ -6,6 +6,7 @@ import { DiNpm } from "react-icons/di"
 import { BsBookHalf } from "react-icons/bs"
 import AgeText from "./Age"
 import { Metadata } from "next"
+import StructuredData from "./structuredData"
 
 export const metadata: Metadata = {
   title: "Mees van Dijk",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
 export default function Index() {
   return (
     <>
+      <StructuredData />
       <div className="h-[93vh] flex flex-col justify-center">
         <TransitionTitle />
       </div>
