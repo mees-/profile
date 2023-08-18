@@ -20,6 +20,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://mees.io",
   },
+  openGraph: {
+    title: "Mees van Dijk",
+    description: "Mees van Dijk's personal website",
+    url: "https://mees.io",
+    type: "profile",
+    images: [
+      {
+        url: "https://mees.io/mees.png",
+        width: 512,
+        height: 512,
+        alt: "Mees van Dijk",
+      },
+    ],
+    firstName: "Mees",
+    lastName: "van Dijk",
+    gender: "male",
+  },
 }
 
 export default function Index() {
