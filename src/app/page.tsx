@@ -5,6 +5,21 @@ import { AiOutlineDown, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from
 import { DiNpm } from "react-icons/di"
 import { BsBookHalf } from "react-icons/bs"
 import AgeText from "./Age"
+import { Metadata } from "next"
+
+export const meta: Metadata = {
+  title: "Mees van Dijk",
+  description: "Mees van Dijk's personal website",
+  authors: {
+    name: "Mees van Dijk",
+    url: "https://mees.io",
+  },
+  keywords: ["Mees", "van", "Dijk", "mees.io", "mees", "dijk", "personal", "website", "portfolio"],
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://mees.io",
+  },
+}
 
 export default function Index() {
   return (
