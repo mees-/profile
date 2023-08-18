@@ -20,8 +20,8 @@ export default function Index() {
           <Link href="https://pyntersite.nl" className="underline">
             Pynter
           </Link>{" "}
-          as a full-stack developer. I&apos;m Currently in my last year of my bachelor&apos;s degree in computer science
-          at the Hanze Universty of Applied Sciences.
+          as a full-stack developer. I&apos;m in my last year of my bachelor&apos;s degree in computer science at the
+          Hanze Universty of Applied Sciences and I&apos;m planning to finish my degree in october 2023.
         </p>
         <p className="font-semibold">
           I have a lot of experience building web applications and have been doing it for 10 years. I&apos;m passionate
