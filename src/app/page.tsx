@@ -32,7 +32,7 @@ export default function Index() {
         <p className="font-semibold">
           Hi, I&apos;m Mees. I&apos;m <AgeText /> years old and I&apos;m a software engineer from the Netherlands.
           I&apos;m currently working at{" "}
-          <Link href="https://pyntersite.nl" className="underline">
+          <Link href="https://pyntersite.nl" className="underline" aria-label="Go to Pynter website">
             Pynter
           </Link>{" "}
           as a full-stack developer. I&apos;m in my last year of my bachelor&apos;s degree in computer science at the
@@ -47,27 +47,30 @@ export default function Index() {
           <h2 className="text-2xl font-semibold">Links</h2>
           <ul className="mt-3 flex flex-wrap gap-6 text-3xl">
             <li>
-              <Link href="https://github.com/mees-">
+              <Link href="https://github.com/mees-" aria-label="Go to Mees' github profile">
                 <AiOutlineGithub />
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com/in/mees-van-dijk-789a50179/">
+              <Link
+                href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
+                aria-label="Go to Mees' linkedin profile"
+              >
                 <AiOutlineLinkedin />
               </Link>
             </li>
             <li>
-              <Link href="https://www.npmjs.com/~mees-">
+              <Link href="https://www.npmjs.com/~mees-" aria-label="View Mees' NPM packages">
                 <DiNpm />
               </Link>
             </li>
             <li>
-              <Link href="https://journal.mees.io">
+              <Link href="https://journal.mees.io" aria-label="Go to Mees' journal">
                 <BsBookHalf />
               </Link>
             </li>
             <li>
-              <Link href="mailto:mees@mees.io">
+              <Link href="mailto:mees@mees.io" aria-label="Send Mees an email">
                 <AiOutlineMail />
               </Link>
             </li>
