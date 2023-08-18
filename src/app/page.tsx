@@ -7,7 +7,7 @@ import { BsBookHalf } from "react-icons/bs"
 import AgeText from "./Age"
 import { Metadata } from "next"
 
-export const meta: Metadata = {
+export const metadata: Metadata = {
   title: "Mees van Dijk",
   description: "Mees van Dijk's personal website",
   authors: {
