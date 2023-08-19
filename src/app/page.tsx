@@ -25,6 +25,10 @@ export const metadata: Metadata = {
           title: "Mees van Dijk",
           url: "https://meesvandijk.com",
         },
+        {
+          title: "Mees van Dijk",
+          url: "https://itisme.es",
+        },
       ],
     },
   },
