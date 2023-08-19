@@ -128,7 +128,6 @@ export default function Index() {
             <li>Microservices</li>
             <li>Docker</li>
             <li>Redis</li>
-            <li>Microservices</li>
             <li>Serverless</li>
             <li>Continuous Integration</li>
             <li>Continuous Deployment</li>
