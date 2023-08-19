@@ -6,7 +6,7 @@ const data: WithContext<Person> = {
   "@id": "https://mees.io",
   "@type": "Person",
   name: "Mees van Dijk",
-  url: "https://mees.io",
+  url: ["https://mees.io", "https://meesvandijk.com", "https://www.meesvandijk.com"],
   image: "https://mees.io/mees.png",
   email: "mees@mees.io",
   givenName: "Mees",
@@ -18,7 +18,12 @@ const data: WithContext<Person> = {
     "@type": "City",
     name: "Groningen",
   },
-  sameAs: ["https://www.linkedin.com/in/mees-van-dijk-789a50179/", "https://github.com/mees-", "https://mees.io"],
+  sameAs: [
+    "https://mees.io",
+    "https://meesvandijk.com",
+    "https://www.linkedin.com/in/mees-van-dijk-789a50179/",
+    "https://github.com/mees-",
+  ],
   jobTitle: "Software Engineer",
   workLocation: "Groningen, The Netherlands",
   alumniOf: {

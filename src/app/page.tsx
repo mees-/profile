@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   robots: "index, follow",
   alternates: {
     canonical: "https://mees.io",
+    types: {
+      "text/html": [
+        {
+          title: "Mees van Dijk",
+          url: "https://meesvandijk.com",
+        },
+      ],
+    },
   },
   openGraph: {
     title: "Mees van Dijk",
