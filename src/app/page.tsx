@@ -43,10 +43,10 @@ export default function Index() {
   return (
     <>
       <StructuredData />
-      <div className="h-[93vh] flex flex-col justify-center">
+      <div className="h-screen flex flex-col justify-center relative">
         <TransitionTitle />
+        <AiOutlineDown className="text-3xl font-bold mb-8 absolute bottom-2 left-0 right-0 mx-auto" />
       </div>
-      <AiOutlineDown className="text-3xl font-bold mb-8" />
       <main className="p-12 mx-auto sm:w-3/4 md:w-2/3 lg:w-1/2 space-y-8">
         <p className="font-semibold">
           Hi, I&apos;m Mees. I&apos;m <AgeText /> years old and I&apos;m a software engineer from the Netherlands.
