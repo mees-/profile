@@ -76,7 +76,7 @@ export default function Index() {
         </p>
         <div>
           <h2 className="text-2xl font-semibold">Links</h2>
-          <ul className="mt-3 flex flex-wrap gap-6 text-3xl">
+          <ul className="mt-3 flex flex-wrap gap-12 text-3xl justify-between md:justify-start">
             <li>
               <Link href="https://github.com/mees-" aria-label="Go to Mees' github profile">
                 <AiOutlineGithub />
