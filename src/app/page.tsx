@@ -11,6 +11,11 @@ import StructuredData from "./structuredData"
 export const metadata: Metadata = {
   title: "Mees van Dijk",
   description: "Mees van Dijk's personal website",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    userScalable: false,
+  },
   authors: {
     name: "Mees van Dijk",
     url: "https://mees.io",
