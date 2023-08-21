@@ -72,7 +72,7 @@ export default function Index() {
             Pynter
           </Link>{" "}
           as a full-stack developer. I&apos;m in my last year of my bachelor&apos;s degree in computer science at the
-          Hanze Universty of Applied Sciences and I&apos;m planning to finish my degree in october 2023.
+          Hanze Universty of Applied Sciences and I will finish my degree in october 2023.
         </p>
         <p className="font-semibold">
           I have a lot of experience building web applications and have been doing it for 10 years. I&apos;m passionate
@@ -120,24 +120,26 @@ export default function Index() {
             <li>Next.js</li>
             <li>Node.js</li>
             <li>Express</li>
+            <li>Git</li>
             <li>GraphQL</li>
             <li>PostgreSQL</li>
+            <li>HTML</li>
+            <li>Tailwindcss</li>
+            <li>CSS</li>
+            <li>Docker</li>
             <li>Prisma</li>
+            <li>Microservices</li>
             <li>Rust</li>
             <li>Java</li>
             <li>C#</li>
             <li>.Net</li>
-            <li>Git</li>
             <li>Linux</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Tailwindcss</li>
             <li>Unit testing</li>
             <li>Webpack</li>
-            <li>Microservices</li>
-            <li>Docker</li>
             <li>Redis</li>
             <li>Serverless</li>
+            <li>Firebase</li>
+            <li>Vercel</li>
             <li>Continuous Integration</li>
             <li>Continuous Deployment</li>
           </ul>
