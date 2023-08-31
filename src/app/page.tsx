@@ -65,7 +65,7 @@ export default function Index() {
         <AiOutlineDown className="text-3xl font-bold mb-8 absolute bottom-2 left-0 right-0 mx-auto" />
       </div>
       <main className="p-12 mx-auto sm:w-3/4 md:w-2/3 lg:w-1/2 space-y-8">
-        <p className="font-semibold">
+        <p className="">
           Hi, I&apos;m Mees. I&apos;m <AgeText /> years old and I&apos;m a software engineer from the Netherlands.
           I&apos;m currently working at{" "}
           <Link href="https://pyntersite.nl" className="underline" aria-label="Go to Pynter website">
@@ -74,7 +74,7 @@ export default function Index() {
           as a full-stack developer. I&apos;m in my last year of my bachelor&apos;s degree in computer science at the
           Hanze Universty of Applied Sciences and I will finish my degree in october 2023.
         </p>
-        <p className="font-semibold">
+        <p className="">
           I have a lot of experience building web applications and have been doing it for 10 years. I&apos;m passionate
           about building software that is easy to use and maintain. I love keeping up with new technology and I&apos;m
           always learning new things.
