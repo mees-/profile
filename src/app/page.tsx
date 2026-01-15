@@ -65,85 +65,55 @@ export default function Index() {
         <AiOutlineDown className="text-3xl font-bold mb-8 absolute bottom-2 left-0 right-0 mx-auto" />
       </div>
       <main className="p-12 mx-auto sm:w-3/4 md:w-2/3 lg:w-1/2 space-y-8">
-        <p className="">
-          Hi, I&apos;m Mees. I&apos;m <AgeText /> years old and I&apos;m a software engineer from the Netherlands.
-          I&apos;m currently working at{" "}
-          <Link href="https://pyntersite.nl" className="underline" aria-label="Go to Pynter website">
-            Pynter
+        <p>
+          Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in translating ideas into
+          scalable, high-quality products. Combining technical expertise with product vision, bridging business goals
+          and engineering execution to deliver software that is both user-friendly and maintainable.
+        </p>
+        <p>
+          With over 10 years of experience in web application development, Mees is highly skilled in full-stack
+          development, shaping technical strategy, guiding product decisions, and turning complex requirements into
+          actionable solutions. Thrives in environments where ownership, quality, and long-term impact are valued,
+          continuously exploring new technologies and approaches to improve products and teams.
+        </p>
+        <p>
+          Currently leading the engineering team at{" "}
+          <Link
+            href="https://onderzoekdoen.nl"
+            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
+            aria-label="Go to Onderzoekdoen.nl website"
+          >
+            Onderzoekdoen.nl
           </Link>{" "}
-          as a full-stack developer. I&apos;m in my last year of my bachelor&apos;s degree in computer science at the
-          Hanze Universty of Applied Sciences and I will finish my degree in october 2023.
+          as Technical Lead, responsible for technical direction, product alignment, and team growth.
         </p>
-        <p className="">
-          I have a lot of experience building web applications and have been doing it for 10 years. I&apos;m passionate
-          about building software that is easy to use and maintain. I love keeping up with new technology and I&apos;m
-          always learning new things.
+        <p>
+          Take a look at my projects on{" "}
+          <Link
+            href="https://github.com/mees-"
+            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
+            aria-label="Go to Mees' github profile"
+          >
+            GitHub
+          </Link>
+          , Connect with me on{" "}
+          <Link
+            href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
+            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
+            aria-label="Go to Mees' linkedin profile"
+          >
+            LinkedIn
+          </Link>
+          , or send me an{" "}
+          <Link
+            href="mailto:mees@mees.io"
+            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
+            aria-label="Send Mees an email"
+          >
+            email
+          </Link>
+          .
         </p>
-        <div>
-          <h2 className="text-2xl font-semibold">Links</h2>
-          <ul className="mt-3 flex flex-wrap gap-12 text-3xl justify-between md:justify-start">
-            <li>
-              <Link href="https://github.com/mees-" aria-label="Go to Mees' github profile">
-                <AiOutlineGithub />
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
-                aria-label="Go to Mees' linkedin profile"
-              >
-                <AiOutlineLinkedin />
-              </Link>
-            </li>
-            <li>
-              <Link href="https://www.npmjs.com/~mees-" aria-label="View Mees' NPM packages">
-                <DiNpm />
-              </Link>
-            </li>
-            <li>
-              <Link href="https://journal.mees.io" aria-label="Go to Mees' journal">
-                <BsBookHalf />
-              </Link>
-            </li>
-            <li>
-              <Link href="mailto:mees@mees.io" aria-label="Send Mees an email">
-                <AiOutlineMail />
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-2xl font-semibold">Skills</h2>
-          <ul className="mt-3 flex flex-wrap gap-4">
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>Git</li>
-            <li>GraphQL</li>
-            <li>PostgreSQL</li>
-            <li>HTML</li>
-            <li>Tailwindcss</li>
-            <li>CSS</li>
-            <li>Docker</li>
-            <li>Prisma</li>
-            <li>Microservices</li>
-            <li>Rust</li>
-            <li>Java</li>
-            <li>C#</li>
-            <li>.Net</li>
-            <li>Linux</li>
-            <li>Unit testing</li>
-            <li>Webpack</li>
-            <li>Redis</li>
-            <li>Serverless</li>
-            <li>Firebase</li>
-            <li>Vercel</li>
-            <li>Continuous Integration</li>
-            <li>Continuous Deployment</li>
-          </ul>
-        </div>
       </main>
     </>
   )
