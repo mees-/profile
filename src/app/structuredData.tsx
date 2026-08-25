@@ -30,7 +30,12 @@ const data: WithContext<Person> = {
     "https://www.linkedin.com/in/mees-van-dijk-789a50179/",
     "https://github.com/mees-",
   ],
-  jobTitle: "Software Engineer",
+  jobTitle: "Product Engineer",
+  worksFor: {
+    "@type": "Organization",
+    name: "Spheer",
+    url: "https://spheer.ai/en",
+  },
   workLocation: "Groningen, The Netherlands",
   alumniOf: {
     "@id": "https://www.hanze.nl",

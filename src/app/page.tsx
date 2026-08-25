@@ -1,21 +1,13 @@
 import Link from "next/link"
 
 import TransitionTitle from "./TransitionTitle"
-import { AiOutlineDown, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai"
-import { DiNpm } from "react-icons/di"
-import { BsBookHalf } from "react-icons/bs"
-import AgeText from "./Age"
-import { Metadata } from "next"
+import { Metadata, Viewport } from "next"
+import { AiOutlineDown } from "react-icons/ai"
 import StructuredData from "./structuredData"
 
 export const metadata: Metadata = {
   title: "Mees van Dijk",
   description: "Mees van Dijk's personal website",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    userScalable: false,
-  },
   authors: {
     name: "Mees van Dijk",
     url: "https://mees.io",
@@ -56,6 +48,12 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  userScalable: false,
+}
+
 export default function Index() {
   return (
     <>
@@ -77,15 +75,15 @@ export default function Index() {
           continuously exploring new technologies and approaches to improve products and teams.
         </p>
         <p>
-          Currently leading the engineering team at{" "}
+          Currently working as a Product Engineer at{" "}
           <Link
-            href="https://onderzoekdoen.nl"
+            href="https://spheer.ai/en"
             className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Go to Onderzoekdoen.nl website"
+            aria-label="Go to Spheer website"
           >
-            Onderzoekdoen.nl
+            Spheer
           </Link>{" "}
-          as Technical Lead, responsible for technical direction, product alignment, and team growth.
+          where I help craft accessible user experiences for satellite-powered monitoring.
         </p>
         <p>
           Take a look at my projects on{" "}
