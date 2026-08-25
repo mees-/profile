@@ -1,8 +1,7 @@
 import { Metadata, Viewport } from "next"
 import Link from "next/link"
-import { AiOutlineDown } from "react-icons/ai"
+import Header from "./Header"
 import StructuredData from "./structuredData"
-import TransitionTitle from "./TransitionTitle"
 
 export const metadata: Metadata = {
   title: "Mees van Dijk",
@@ -54,65 +53,76 @@ export const viewport: Viewport = {
 }
 
 export default function Index() {
+  const linkClassName = "underline underline-offset-[0.125em] hover:bg-[#ffff00] hover:no-underline"
+
   return (
     <>
       <StructuredData />
-      <div className="relative flex h-screen flex-col justify-center">
-        <TransitionTitle />
-        <AiOutlineDown className="absolute right-0 bottom-2 left-0 mx-auto mb-8 text-3xl font-bold" />
-      </div>
-      <main className="mx-auto space-y-8 p-12 sm:w-3/4 md:w-2/3 lg:w-1/2">
-        <p>
-          Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in
-          translating ideas into scalable, high-quality products. Combining technical expertise with
-          product vision, bridging business goals and engineering execution to deliver software that
-          is both user-friendly and maintainable.
-        </p>
-        <p>
-          With over 10 years of experience in web application development, Mees is highly skilled in
-          full-stack development, shaping technical strategy, guiding product decisions, and turning
-          complex requirements into actionable solutions. Thrives in environments where ownership,
-          quality, and long-term impact are valued, continuously exploring new technologies and
-          approaches to improve products and teams.
-        </p>
-        <p>
-          Currently working as a Product Engineer at{" "}
-          <Link
-            href="https://spheer.ai/en"
-            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Go to Spheer website"
-          >
-            Spheer
-          </Link>{" "}
-          where I help craft accessible user experiences for satellite-powered monitoring.
-        </p>
-        <p>
-          Take a look at my projects on{" "}
-          <Link
-            href="https://github.com/mees-"
-            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Go to Mees' github profile"
-          >
-            GitHub
-          </Link>
-          , Connect with me on{" "}
-          <Link
-            href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
-            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Go to Mees' linkedin profile"
-          >
-            LinkedIn
-          </Link>
-          , or send me an{" "}
-          <Link
-            href="mailto:mees@mees.io"
-            className="text-blue-500 hover:text-blue-400 dark:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Send Mees an email"
-          >
-            email
-          </Link>
-          .
-        </p>
+      <main className="w-full max-w-2xl">
+        <header className="mb-8 leading-5" aria-label="Site letterhead">
+          <p>MEES VAN DIJK</p>
+          <p>PERSONAL WEBSITE</p>
+          <p>GRONINGEN, NL</p>
+        </header>
+
+        <section aria-labelledby="about">
+          <Header id="about" level={1}>
+            ABOUT
+          </Header>
+          <p>
+            Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in translating ideas into
+            scalable, high-quality products. He combines technical expertise with product vision, bridging business
+            goals and engineering execution.
+          </p>
+          <p className="mt-6">
+            With over 10 years of experience in web application development, Mees works across full-stack development,
+            technical strategy, and product decisions. He enjoys turning complex requirements into maintainable software
+            that people like to use.
+          </p>
+        </section>
+
+        <section className="mt-6" aria-labelledby="now">
+          <Header id="now" level={2}>
+            NOW
+          </Header>
+          <p>
+            Product Engineer at{" "}
+            <Link className={linkClassName} href="https://spheer.ai/en" aria-label="Go to Spheer website">
+              Spheer
+            </Link>
+            , helping craft accessible user experiences for satellite-powered monitoring.
+          </p>
+        </section>
+
+        <section className="mt-6" aria-labelledby="elsewhere">
+          <Header id="elsewhere" level={2}>
+            ELSEWHERE
+          </Header>
+          <ul className="list-none p-0">
+            <li>
+              -{" "}
+              <Link className={linkClassName} href="https://github.com/mees-" aria-label="Go to Mees' GitHub profile">
+                [GitHub]
+              </Link>
+            </li>
+            <li>
+              -{" "}
+              <Link
+                className={linkClassName}
+                href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
+                aria-label="Go to Mees' LinkedIn profile"
+              >
+                [LinkedIn]
+              </Link>
+            </li>
+            <li>
+              -{" "}
+              <Link className={linkClassName} href="mailto:mees@mees.io" aria-label="Send Mees an email">
+                [Email]
+              </Link>
+            </li>
+          </ul>
+        </section>
       </main>
     </>
   )
