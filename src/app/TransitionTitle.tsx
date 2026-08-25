@@ -14,10 +14,10 @@ export default function TransitionTitle() {
     <h1
       className={clsx(
         "my-auto",
-        "text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-extrabold",
+        "text-4xl font-extrabold sm:text-6xl md:text-7xl lg:text-9xl",
         "transition duration-700",
-        !isShown && "opacity-0 scale-0",
-        isShown && "opacity-100 scale-100",
+        !isShown && "scale-0 opacity-0",
+        isShown && "scale-100 opacity-100",
       )}
     >
       Mees van Dijk

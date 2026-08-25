@@ -2,15 +2,16 @@
   "name": "meesio",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@11.20.0",
-  "engines": {
-    "node": ">=20.9.0"
-  },
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "check": "oxlint && oxfmt --check .",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -22,16 +23,19 @@
     "schema-dts": "^2.0.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^16.3.2",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/luxon": "^3.7.5",
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
-    "eslint": "^10.9.0",
+    "oxfmt": "^0.65.0",
+    "oxlint": "^1.80.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0"
-  }
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "packageManager": "pnpm@11.20.0"
 }

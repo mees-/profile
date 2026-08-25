@@ -1,9 +1,8 @@
-import Link from "next/link"
-
-import TransitionTitle from "./TransitionTitle"
 import { Metadata, Viewport } from "next"
+import Link from "next/link"
 import { AiOutlineDown } from "react-icons/ai"
 import StructuredData from "./structuredData"
+import TransitionTitle from "./TransitionTitle"
 
 export const metadata: Metadata = {
   title: "Mees van Dijk",
@@ -58,21 +57,23 @@ export default function Index() {
   return (
     <>
       <StructuredData />
-      <div className="h-screen flex flex-col justify-center relative">
+      <div className="relative flex h-screen flex-col justify-center">
         <TransitionTitle />
-        <AiOutlineDown className="text-3xl font-bold mb-8 absolute bottom-2 left-0 right-0 mx-auto" />
+        <AiOutlineDown className="absolute right-0 bottom-2 left-0 mx-auto mb-8 text-3xl font-bold" />
       </div>
-      <main className="p-12 mx-auto sm:w-3/4 md:w-2/3 lg:w-1/2 space-y-8">
+      <main className="mx-auto space-y-8 p-12 sm:w-3/4 md:w-2/3 lg:w-1/2">
         <p>
-          Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in translating ideas into
-          scalable, high-quality products. Combining technical expertise with product vision, bridging business goals
-          and engineering execution to deliver software that is both user-friendly and maintainable.
+          Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in
+          translating ideas into scalable, high-quality products. Combining technical expertise with
+          product vision, bridging business goals and engineering execution to deliver software that
+          is both user-friendly and maintainable.
         </p>
         <p>
-          With over 10 years of experience in web application development, Mees is highly skilled in full-stack
-          development, shaping technical strategy, guiding product decisions, and turning complex requirements into
-          actionable solutions. Thrives in environments where ownership, quality, and long-term impact are valued,
-          continuously exploring new technologies and approaches to improve products and teams.
+          With over 10 years of experience in web application development, Mees is highly skilled in
+          full-stack development, shaping technical strategy, guiding product decisions, and turning
+          complex requirements into actionable solutions. Thrives in environments where ownership,
+          quality, and long-term impact are valued, continuously exploring new technologies and
+          approaches to improve products and teams.
         </p>
         <p>
           Currently working as a Product Engineer at{" "}
