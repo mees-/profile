@@ -58,7 +58,7 @@ export default function Index() {
   return (
     <>
       <StructuredData />
-      <main className="w-full max-w-2xl">
+      <main className="w-full max-w-lg">
         <header className="mb-8 leading-5" aria-label="Site letterhead">
           <p>MEES VAN DIJK</p>
           <p>PERSONAL WEBSITE</p>
@@ -96,6 +96,32 @@ export default function Index() {
             </Link>
             , helping craft accessible user experiences for satellite-powered monitoring.
           </p>
+        </section>
+
+        <section className="mt-6" aria-labelledby="projects">
+          <Header id="projects" level={2}>
+            PROJECTS
+          </Header>
+          <ul className="list-none p-0">
+            <li>
+              -{" "}
+              <Link className={linkClassName} href="https://tock.run" aria-label="Go to Tock">
+                [Tock]
+              </Link>{" "}
+              is an HTTP-native cron scheduler for observable jobs.
+            </li>
+            <li>
+              -{" "}
+              <Link
+                className={linkClassName}
+                href="https://changelog.work"
+                aria-label="Go to changelog"
+              >
+                [changelog]
+              </Link>{" "}
+              turns activity across your team into a newsfeed.
+            </li>
+          </ul>
         </section>
 
         <section className="mt-6" aria-labelledby="elsewhere">
