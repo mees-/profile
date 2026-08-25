@@ -70,14 +70,14 @@ export default function Index() {
             ABOUT
           </Header>
           <p>
-            Mees van Dijk is a software engineer with an entrepreneurial mindset, specializing in translating ideas into
-            scalable, high-quality products. He combines technical expertise with product vision, bridging business
-            goals and engineering execution.
+            I create digital products and experiences that turn ideas into useful, high-quality
+            outcomes. I bring together product thinking, technology, and a practical understanding
+            of business goals.
           </p>
           <p className="mt-6">
-            With over 10 years of experience in web application development, Mees works across full-stack development,
-            technical strategy, and product decisions. He enjoys turning complex requirements into maintainable software
-            that people like to use.
+            With over 10 years of experience building for the web, I work across product strategy,
+            design, and technology. I care about crafting clear, thoughtful products that feel great
+            to use and make people happy.
           </p>
         </section>
 
@@ -87,7 +87,11 @@ export default function Index() {
           </Header>
           <p>
             Product Engineer at{" "}
-            <Link className={linkClassName} href="https://spheer.ai/en" aria-label="Go to Spheer website">
+            <Link
+              className={linkClassName}
+              href="https://spheer.ai/en"
+              aria-label="Go to Spheer website"
+            >
               Spheer
             </Link>
             , helping craft accessible user experiences for satellite-powered monitoring.
@@ -101,7 +105,11 @@ export default function Index() {
           <ul className="list-none p-0">
             <li>
               -{" "}
-              <Link className={linkClassName} href="https://github.com/mees-" aria-label="Go to Mees' GitHub profile">
+              <Link
+                className={linkClassName}
+                href="https://github.com/mees-"
+                aria-label="Go to Mees' GitHub profile"
+              >
                 [GitHub]
               </Link>
             </li>
@@ -117,7 +125,11 @@ export default function Index() {
             </li>
             <li>
               -{" "}
-              <Link className={linkClassName} href="mailto:mees@mees.io" aria-label="Send Mees an email">
+              <Link
+                className={linkClassName}
+                href="mailto:mees@mees.io"
+                aria-label="Send Mees an email"
+              >
                 [Email]
               </Link>
             </li>

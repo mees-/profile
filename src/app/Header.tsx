@@ -11,7 +11,7 @@ export default function Header({ children, id, level }: HeaderProps) {
 
   return (
     <Heading id={id} className="mb-6 font-bold">
-      <span className="font-extralight text-xs">{"#".repeat(level)}</span> {children}
+      <span className="text-xs font-extralight">{"#".repeat(level)}</span> {children}
     </Heading>
   )
 }
