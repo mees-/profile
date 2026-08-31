@@ -49,7 +49,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  userScalable: false,
 }
 
 export default function Index() {
@@ -86,11 +85,7 @@ export default function Index() {
           </Header>
           <p>
             Product Engineer at{" "}
-            <Link
-              className={linkClassName}
-              href="https://spheer.ai/en"
-              aria-label="Go to Spheer website"
-            >
+            <Link className={linkClassName} href="https://spheer.ai/en">
               Spheer
             </Link>
             , helping craft accessible user experiences for satellite-powered monitoring.
@@ -103,19 +98,15 @@ export default function Index() {
           </Header>
           <ul className="list-none p-0">
             <li>
-              -{" "}
-              <Link className={linkClassName} href="https://tock.run" aria-label="Go to Tock">
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://tock.run">
                 [Tock]
               </Link>{" "}
               is an HTTP-native cron scheduler for observable jobs.
             </li>
             <li>
-              -{" "}
-              <Link
-                className={linkClassName}
-                href="https://changelog.work"
-                aria-label="Go to changelog"
-              >
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://changelog.work">
                 [changelog]
               </Link>{" "}
               turns activity across your team into a newsfeed.
@@ -129,32 +120,23 @@ export default function Index() {
           </Header>
           <ul className="list-none p-0">
             <li>
-              -{" "}
-              <Link
-                className={linkClassName}
-                href="https://github.com/mees-"
-                aria-label="Go to Mees' GitHub profile"
-              >
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://github.com/mees-">
                 [GitHub]
               </Link>
             </li>
             <li>
-              -{" "}
+              <span aria-hidden="true">- </span>
               <Link
                 className={linkClassName}
                 href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
-                aria-label="Go to Mees' LinkedIn profile"
               >
                 [LinkedIn]
               </Link>
             </li>
             <li>
-              -{" "}
-              <Link
-                className={linkClassName}
-                href="mailto:mees@mees.io"
-                aria-label="Send Mees an email"
-              >
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="mailto:mees@mees.io">
                 [Email]
               </Link>
             </li>

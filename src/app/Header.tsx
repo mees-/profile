@@ -11,7 +11,10 @@ export default function Header({ children, id, level }: HeaderProps) {
 
   return (
     <Heading id={id} className="mb-6 font-bold uppercase">
-      <span className="text-xs font-extralight">{"#".repeat(level)}</span> {children}
+      <span aria-hidden="true" className="text-xs font-extralight">
+        {"#".repeat(level)}
+      </span>{" "}
+      {children}
     </Heading>
   )
 }
