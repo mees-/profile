@@ -59,15 +59,14 @@ export default function Index() {
     <>
       <StructuredData />
       <main className="w-full max-w-lg">
-        <header className="mb-8 leading-5" aria-label="Site letterhead">
-          <p>MEES VAN DIJK</p>
-          <p>PERSONAL WEBSITE</p>
-          <p>GRONINGEN, NL</p>
+        <header className="mb-8 leading-5 uppercase" aria-label="Site letterhead">
+          <p>Mees van Dijk</p>
+          <p>mees@mees.io</p>
         </header>
 
         <section aria-labelledby="about">
           <Header id="about" level={1}>
-            ABOUT
+            About
           </Header>
           <p>
             I create digital products and experiences that turn ideas into useful, high-quality
@@ -83,7 +82,7 @@ export default function Index() {
 
         <section className="mt-6" aria-labelledby="now">
           <Header id="now" level={2}>
-            NOW
+            Now
           </Header>
           <p>
             Product Engineer at{" "}
@@ -100,7 +99,7 @@ export default function Index() {
 
         <section className="mt-6" aria-labelledby="projects">
           <Header id="projects" level={2}>
-            PROJECTS
+            Projects
           </Header>
           <ul className="list-none p-0">
             <li>
@@ -126,7 +125,7 @@ export default function Index() {
 
         <section className="mt-6" aria-labelledby="elsewhere">
           <Header id="elsewhere" level={2}>
-            ELSEWHERE
+            Elsewhere
           </Header>
           <ul className="list-none p-0">
             <li>
