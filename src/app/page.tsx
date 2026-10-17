@@ -97,23 +97,21 @@ export default function Index() {
           <Header id="projects" level={2}>
             Projects
           </Header>
-          <Paragraph>
-            <ul className="list-none p-0">
-              <li>
-                <span aria-hidden="true">- </span>
-                <Link className={linkClassName} href="https://tock.run">
-                  [Tock]
-                </Link>{" "}
-                is an HTTP-native cron scheduler for observable jobs.
-              </li>
-              <li>
-                <span aria-hidden="true">- </span>
-                <Link className={linkClassName} href="https://changelog.work">
-                  [changelog]
-                </Link>{" "}
-                turns activity across your team into a newsfeed.
-              </li>
-            </ul>
+          <Paragraph as="ul" className="list-none p-0">
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://tock.run">
+                [Tock]
+              </Link>{" "}
+              is an HTTP-native cron scheduler for observable jobs.
+            </li>
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://changelog.work">
+                [changelog]
+              </Link>{" "}
+              turns activity across your team into a newsfeed.
+            </li>
           </Paragraph>
         </section>
 
@@ -121,30 +119,28 @@ export default function Index() {
           <Header id="elsewhere" level={2}>
             Elsewhere
           </Header>
-          <Paragraph>
-            <ul className="list-none p-0">
-              <li>
-                <span aria-hidden="true">- </span>
-                <Link className={linkClassName} href="https://github.com/mees-">
-                  [GitHub]
-                </Link>
-              </li>
-              <li>
-                <span aria-hidden="true">- </span>
-                <Link
-                  className={linkClassName}
-                  href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
-                >
-                  [LinkedIn]
-                </Link>
-              </li>
-              <li>
-                <span aria-hidden="true">- </span>
-                <Link className={linkClassName} href="mailto:mees@mees.io">
-                  [Email]
-                </Link>
-              </li>
-            </ul>
+          <Paragraph as="ul" className="list-none p-0">
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://github.com/mees-">
+                [GitHub]
+              </Link>
+            </li>
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link
+                className={linkClassName}
+                href="https://www.linkedin.com/in/mees-van-dijk-789a50179/"
+              >
+                [LinkedIn]
+              </Link>
+            </li>
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="mailto:mees@mees.io">
+                [Email]
+              </Link>
+            </li>
           </Paragraph>
         </section>
       </main>
