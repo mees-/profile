@@ -89,7 +89,7 @@ export default function Index() {
             <Link className={linkClassName} href="https://spheer.ai/en">
               Spheer
             </Link>
-            , helping craft accessible user experiences for machine learning powered remote sensing.
+            , helping craft accessible user experiences for machine-learning powered remote sensing.
           </Paragraph>
         </section>
 
