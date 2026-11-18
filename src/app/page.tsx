@@ -112,6 +112,13 @@ export default function Index() {
               </Link>{" "}
               turns activity across your team into a newsfeed.
             </li>
+            <li>
+              <span aria-hidden="true">- </span>
+              <Link className={linkClassName} href="https://yourself.mees.sh">
+                [yourself]
+              </Link>{" "}
+              is agent-friendly auth for personal software.
+            </li>
           </Paragraph>
         </section>
 
